@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<!-- Base Define -->
+	<definition name="base.definition" template="/views/common/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/views/common/_header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/views/common/_footer.jsp" />
+	</definition>
+
+	<definition name="homePage" extends="base.definition">
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="body"
+			value="/views/index.jsp" />
+	</definition>
+	
+	<definition name="productPage" extends="base.definition">
+		<put-attribute name="title" value="Product Page" />
+		<put-attribute name="body"
+			value="/views/product.jsp" />
+	</definition>
+	
+	<definition name="detailProductPage" extends="base.definition">
+		<put-attribute name="title" value="Detail Product" />
+		<put-attribute name="body"
+			value="/views/detail.jsp" />
+	</definition>
+	<definition name="loginPage" extends="base.definition">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body"
+			value="/views/login.jsp" />
+	</definition>
+	<definition name="registerPage" extends="base.definition">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body"
+			value="/views/register.jsp" />
+	</definition>
+	<definition name="forgetPage" extends="base.definition">
+		<put-attribute name="title" value="Forget" />
+		<put-attribute name="body"
+			value="/views/forget.jsp" />
+	</definition>
+	<definition name="infoPage" extends="base.definition">
+		<put-attribute name="title" value="Info" />
+		<put-attribute name="body"
+			value="/views/info.jsp" />
+	</definition>
+	<definition name="changePage" extends="base.definition">
+		<put-attribute name="title" value="Change Page" />
+		<put-attribute name="body"
+			value="/views/change.jsp" />
+	</definition>
+	<definition name="MyOrderPage" extends="base.definition">
+		<put-attribute name="title" value="My Order Page" />
+		<put-attribute name="body"
+			value="/views/my-order.jsp" />
+	</definition>
+	<definition name="ManageOrderPage" extends="base.definition">
+		<put-attribute name="title" value="Manage Order Page" />
+		<put-attribute name="body"
+			value="/views/manage-order.jsp" />
+	</definition>
+	<definition name="ManagePage" extends="base.definition">
+		<put-attribute name="title" value="Manage Order Page" />
+		<put-attribute name="body"
+			value="/views/manage.jsp" />
+	</definition>
+	<definition name="ChiTietPage" extends="base.definition">
+		<put-attribute name="title" value="Chi Tiet Page" />
+		<put-attribute name="body"
+			value="/views/chitiet.jsp" />
+	</definition>
+	<definition name="cartPage" extends="base.definition">
+		<put-attribute name="title" value="Cart Page" />
+		<put-attribute name="body"
+			value="/views/cart.jsp" />
+	</definition>
+	<definition name="ChiTiet2Page" extends="base.definition">
+		<put-attribute name="title" value="Chi Tiet Page" />
+		<put-attribute name="body"
+			value="/views/chitiet2.jsp" />
+	</definition>
+	<definition name="ManageProduct" extends="base.definition">
+		<put-attribute name="title" value="Manage Product Page" />
+		<put-attribute name="body"
+			value="/views/admin/admin.jsp" />
+	</definition>
+	<definition name="ManageProductAdd" extends="base.definition">
+		<put-attribute name="title" value="Manage Product Add Page" />
+		<put-attribute name="body"
+			value="/views/admin/addProduct.jsp" />
+	</definition>
+	<definition name="ManageProductUpdate" extends="base.definition">
+		<put-attribute name="title" value="Manage Product Update Page" />
+		<put-attribute name="body"
+			value="/views/admin/updateProduct.jsp" />
+	</definition>
+	<definition name="ManageUser" extends="base.definition">
+		<put-attribute name="title" value="Manage User Page" />
+		<put-attribute name="body"
+			value="/views/users/index.jsp" />
+	</definition>
+	<definition name="ManageUserAdd" extends="base.definition">
+		<put-attribute name="title" value="Manage User Add Page" />
+		<put-attribute name="body"
+			value="/views/users/addUser.jsp" />
+	</definition>
+	<definition name="ManageUserUpdate" extends="base.definition">
+		<put-attribute name="title" value="Manage User Update Page" />
+		<put-attribute name="body"
+			value="/views/users/updateUser.jsp" />
+	</definition>
+	<definition name="ManageCategory" extends="base.definition">
+		<put-attribute name="title" value="Manage Category Page" />
+		<put-attribute name="body"
+			value="/views/category/index.jsp" />
+	</definition>
+	<definition name="ManageCategoryAdd" extends="base.definition">
+		<put-attribute name="title" value="Manage Category Add Page" />
+		<put-attribute name="body"
+			value="/views/category/addCategory.jsp" />
+	</definition>
+	<definition name="ManageCategoryUpdate" extends="base.definition">
+		<put-attribute name="title" value="Manage Category Update Page" />
+		<put-attribute name="body"
+			value="/views/category/updateCategory.jsp" />
+	</definition>
+	<definition name="ManageKichThuoc" extends="base.definition">
+		<put-attribute name="title" value="Manage KichThuoc Page" />
+		<put-attribute name="body"
+			value="/views/kichthuoc/index.jsp" />
+	</definition>
+	<definition name="ManageKichThuocAdd" extends="base.definition">
+		<put-attribute name="title" value="Manage KichThuoc Add Page" />
+		<put-attribute name="body"
+			value="/views/kichthuoc/addKichThuoc.jsp" />
+	</definition>
+	<definition name="ManageKichThuocUpdate" extends="base.definition">
+		<put-attribute name="title" value="Manage KichThuoc Update Page" />
+		<put-attribute name="body"
+			value="/views/kichthuoc/updateKichThuoc.jsp" />
+	</definition>
+</tiles-definitions>
+
